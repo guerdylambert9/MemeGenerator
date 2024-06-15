@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+.app-div {
+    width: 550px;
+    height: 755px;
+    /* background-color: #E5E5E5; */
+    border: orangered;
+    border-style: dashed;
+}
+
+.header--div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* justify-content: center; */
+    width: auto;
+    height: 65px;
+    border: orangered;
+    border-style: dotted;
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+    background-image: linear-gradient(90deg, #672280 0%, #8B24AF 57%, #9C25C5 84%, #A626D3);
+}
+
+.meme--div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.meme--div img {
+    width: 30px;
+    height: 30px;
+}
+
+.project--elem {
+    margin-right: 30px;
+}
